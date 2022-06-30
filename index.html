@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/x-icon" href="./images/imageedit_1_6419317685.png">
+<script src="https://kit.fontawesome.com/fa75532a93.js" crossorigin="anonymous"></script>
+    <title>k-designs</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="app.js" defer></script>
+   <!-- navbar -->
+     <nav class="navbar">
+         <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="logo.jpg" alt="logo">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+         </div>
+     </nav>   
+     <!-- End of navbar -->
+   
+     <!-- hero -->
+     <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">shopping collection</h1>
+            <button class="banner-btn " onclick="window.scrollTo(0,document.body.scrollHeight);">shopnow</button>
+        </div>
+
+     </header>
+     <!-- end of hero -->
+     <!-- product -->
+     <section class="products">
+        <div class="section-title">
+            <h2 >our product</h2>
+        </div>
+        <div class="products-center">
+            <!-- single product -->
+            <!-- <article class="product">
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt="product-1" class="product-img">
+                    <button class="bag-btn " data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>queen bed</h3>
+                <h4>$16</h4>
+            </article> -->
+            <!-- end of single products -->
+        </div>
+     </section>
+     <!-- end of product -->
+
+     <!-- cart -->
+     <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <div class="cart-item">
+                    <!-- <img src="./images/product-1.jpeg" alt="pro1">
+                    <div>
+                        <h4>queen bed</h4>
+                        <h5>$55</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div> -->
+                </div>
+                <!-- end of cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total: $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+     </div>
+     <!-- end of cart -->
+     <footer>
+        <h2>© 2022 K Designs. All Rights Reserved. | Website Development By: KrishnaB.</h2>
+        <div class="icon-bar">
+            <a href="https://www.facebook.com/krishna.bhatta.9041083" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a href="https://twitter.com/1__Krishna__1?t=Fgf0PcSxuzczZiESXpkQRw&s=09" class="twitter"><i class="fa fa-twitter"></i></a> 
+            <a href="https://www.linkedin.com/in/krishna-bhatta-18a95b230" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            
+          </div>
+    </footer>
+    </body>
+</html>
